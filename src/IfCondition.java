@@ -87,3 +87,11 @@ class IfCondition_4{
         }
     }
 }
+class TernaryOperator{
+    public static void main(String []args){
+        int i=8;
+        int j=9;
+        int k= i>j?i:j;
+        System.out.println(k);
+    }
+}

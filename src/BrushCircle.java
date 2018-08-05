@@ -1,8 +1,9 @@
 /*
-* 作者：刘超
-* 时间：2018.8.4
-* 功能：刺激战场刷圈
-* */
+ * 作者：刘超
+ * 时间：2018.8.4
+ * 功能：创建一个矩形
+ * */
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -80,6 +81,7 @@ public class BrushCircle {
 
             // 重新调用 Graphics 的绘制方法绘制时将自动擦除旧的内容
         }
+
         /**
          * 2. 矩形 / 多边形
          */
@@ -100,13 +102,13 @@ public class BrushCircle {
             g2d.drawRoundRect(30, 150, 80, 100, 30, 30);
 
             // 4. 绘制一个多边形(收尾相连): 点(140, 150), 点(180, 250), 点(220, 200)
-            int[] xPoints = new int[] { 140, 180, 220};
-            int[] yPoints = new int[] { 150,  250, 200};
+            int[] xPoints = new int[]{140, 180, 220};
+            int[] yPoints = new int[]{150, 250, 200};
             int nPoints = 3;
             g2d.drawPolygon(xPoints, yPoints, nPoints);
 
             g2d.dispose();
         }
-        }
+    }
 
 }
