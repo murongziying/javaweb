@@ -47,21 +47,26 @@ public class Array {
             System.out.println(arr2[i]);
         }
         System.out.println("=================");
-
-
         /*
-        * 数组的异常一（越界异常）：
-        * int [] arr = {5,2,0};
-        * System.out.println(arr[5]);
-        * 错误代码提示：Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-        * 数组的越界异常，因为数字arr索引最大为2
-        *
-        * 数组的异常二（空指针异常）：
-        * int [] arr = {2,5,7};
-        * System.out.println(arr[1]);
-        * arr = null;
-        * System.out.println(arr);
-        * 错误代码提示：java.lang.NullPointerException
-        * */
+         * 数组的异常一（越界异常）：
+         * int [] arr = {5,2,0};
+         * System.out.println(arr[5]);
+         * 错误代码提示：Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+         * 数组的越界异常，因为数字arr索引最大为2
+         *
+         * 数组的异常二（空指针异常）：
+         * int [] arr = {2,5,7};
+         * System.out.println(arr[1]);
+         * arr = null;
+         * System.out.println(arr);
+         * 错误代码提示：java.lang.NullPointerException
+         * */
+    }
+}
+
+class demo {
+    public static void main(String[] args) {
+        System.out.println(1 & 2);
+        System.out.println(true && true);
     }
 }
