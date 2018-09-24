@@ -70,3 +70,20 @@ class demo {
         System.out.println(true && true);
     }
 }
+
+class DoubleArray {
+    public static void main(String[] args) {
+        //定义方式一：
+        int[][] arr = new int[5][3];
+        System.out.println(arr);
+        System.out.println(arr[1][2]);
+        //定义方式二：
+        int[][] arr1 = new int[3][];
+        arr1[0] = new int[6];
+        arr1[1] = new int[5];
+        arr1[2] = new int[4];
+        //定义方式三：
+        int[][] arr2 = {{1, 2, 3, 4}, {5, 6}, {7, 8, 9,}};
+        System.out.println(arr2[1][1]);
+    }
+}
