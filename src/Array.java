@@ -47,21 +47,43 @@ public class Array {
             System.out.println(arr2[i]);
         }
         System.out.println("=================");
-
-
         /*
-        * 数组的异常一（越界异常）：
-        * int [] arr = {5,2,0};
-        * System.out.println(arr[5]);
-        * 错误代码提示：Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-        * 数组的越界异常，因为数字arr索引最大为2
-        *
-        * 数组的异常二（空指针异常）：
-        * int [] arr = {2,5,7};
-        * System.out.println(arr[1]);
-        * arr = null;
-        * System.out.println(arr);
-        * 错误代码提示：java.lang.NullPointerException
-        * */
+         * 数组的异常一（越界异常）：
+         * int [] arr = {5,2,0};
+         * System.out.println(arr[5]);
+         * 错误代码提示：Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+         * 数组的越界异常，因为数字arr索引最大为2
+         *
+         * 数组的异常二（空指针异常）：
+         * int [] arr = {2,5,7};
+         * System.out.println(arr[1]);
+         * arr = null;
+         * System.out.println(arr);
+         * 错误代码提示：java.lang.NullPointerException
+         * */
+    }
+}
+
+class demo {
+    public static void main(String[] args) {
+        System.out.println(1 & 2);
+        System.out.println(true && true);
+    }
+}
+
+class DoubleArray {
+    public static void main(String[] args) {
+        //定义方式一：
+        int[][] arr = new int[5][3];
+        System.out.println(arr);
+        System.out.println(arr[1][2]);
+        //定义方式二：
+        int[][] arr1 = new int[3][];
+        arr1[0] = new int[6];
+        arr1[1] = new int[5];
+        arr1[2] = new int[4];
+        //定义方式三：
+        int[][] arr2 = {{1, 2, 3, 4}, {5, 6}, {7, 8, 9,}};
+        System.out.println(arr2[1][1]);
     }
 }
