@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:数据类型转换
+ * 作者：linuxc
+ * 时间：2018.7.14
+ * 功能：数据类型转换
  * */
 public class DataTypeConversion {
     public static void main(String[] args) {
@@ -18,17 +18,17 @@ public class DataTypeConversion {
 
 class DataTypeConversion_1 {
     public static void main(String[] args) {
-        // short s1=1;
-        // s1=s1+1;   不能编译成功，因为1为int类型，而s1是short，大数据类型往小数据类型需要强制转换。修正方案如下：
+//        short s1=1;
+//        s1=s1+1;   不能编译成功，因为1为int类型，而s1是short，大数据类型往小数据类型需要强制转换。修正方案如下：
         short s1 = 1;
         s1 = (short) (s1 + 1);
         System.out.println(s1);
         short s2 = 1;
         s2 += 1;
         System.out.println(s2);
-        // 可以编译成功，(s2 += 1) == (s2 = (short)(s2+1))赋值运算会自动进行强制数据类型转换
-        // short s3=1,s4=1;
-        // short sum=s3+s4; 这里是编译器从数据安全方面考虑，如果s1和s2都是较大的short类型数，可能会导致溢出，所以会要求强制转换到int
+//        可以编译成功，(s2 += 1) == (s2 = (short)(s2+1))赋值运算会自动进行强制数据类型转换
+//        short s3=1,s4=1;
+//        short sum=s3+s4; 这里是编译器从数据安全方面考虑，如果s1和s2都是较大的short类型数，可能会导致溢出，所以会要求强制转换到int
         short s3 = 1, s4 = 1;
         int sum = s3 + s4;
         System.out.println(sum);
