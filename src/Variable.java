@@ -10,7 +10,7 @@
 public class Variable {
     public static void main(String[] args) {
         byte a = 1;
-        //1个字节
+        //1个字节    取值范围-128到127
         short b = 12;
         //2个字节
         int c = 123;
