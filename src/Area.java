@@ -1,16 +1,18 @@
 /*
-* 作者：刘超
-* 日期：2018/9/22
-* 功能：九三长方形面积
-* */
+ * 作者：刘超
+ * 日期：2018/9/22
+ * 功能：九三长方形面积
+ * */
+
 import java.util.Scanner;
+
 public class Area {
-    public static void main(String []args){
+    public static void main(String[] args) {
         int area = getArea();
-        System.out.println("面积："+area);
+        System.out.println("面积：" + area);
     }
 
-    public static int getArea(){
+    public static int getArea() {
         int width;
         int height;
         Scanner scanner = new Scanner(System.in);
