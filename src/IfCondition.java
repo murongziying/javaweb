@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:IF条件语句
+ * 作者：刘超
+ * 日期：2018.7.14
+ * 功能：IF条件语句
  * */
 import java.util.Scanner;
 

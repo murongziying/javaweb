@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:运算符
+ * 作者：刘超
+ * 日期：2018.7.14
+ * 功能：运算符
  * */
 public class Operator {
     //常规运算符

@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:键盘输入Scanner
+ * 作者：刘超
+ * 日期：2018.7.14
+ * 功能：键盘输入Scanner
  * */
 
 import java.util.Scanner;

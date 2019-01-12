@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:显示商品库存
+ * 作者：刘超
+ * 日期：2018.7.14
+ * 功能：显示商品库存
  * */
 public class CommodityStock {
     public static void main(String[] args) {

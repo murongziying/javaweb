@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:random随机数
+ * 作者：刘超
+ * 日期：2018.7.14
+ * 功能：random随机数
  * */
 
 import java.util.Random;

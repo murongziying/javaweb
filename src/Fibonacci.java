@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.14
- * application:斐波那契数列
+ * 作者：刘超
+ * 日期：2018.7.14
+ * 功能：斐波那契数列
  * */
 public class Fibonacci {
     public static void main(String[] args) {

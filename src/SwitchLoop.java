@@ -1,10 +1,11 @@
-import java.util.Scanner;
-
 /*
  * 作者：刘超
  * 日期：2018.8.5
  * 功能：switch循环语句
  * */
+
+import java.util.Scanner;
+
 public class SwitchLoop {
     public static void main(String[] args) {
         System.out.println("请输入一个整数：");

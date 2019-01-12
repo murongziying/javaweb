@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.17
- * application:for 循环语句
+ * 作者：刘超
+ * 日期：2018.7.17
+ * 功能：for 循环语句
  * */
 public class ForLoop {
     public static void main(String[] args) {

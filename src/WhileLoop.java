@@ -1,7 +1,7 @@
 /*
- * author:linuxc
- * date:2018.7.17
- * application:while循环
+ * 作者：刘超
+ * 日期：2018.7.17
+ * 功能：while循环
  * */
 public class WhileLoop {
     public static void main(String[] args) {

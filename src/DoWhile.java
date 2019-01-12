@@ -1,5 +1,5 @@
 /*
- * author:linuxc
+ * 作者：刘超
  * date:2018.7.21
  * application:do while 循环
  * do ...while 循环
