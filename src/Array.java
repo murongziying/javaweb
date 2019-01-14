@@ -64,13 +64,6 @@ public class Array {
     }
 }
 
-class demo {
-    public static void main(String[] args) {
-        System.out.println(1 & 2);
-        System.out.println(true && true);
-    }
-}
-
 class DoubleArray {
     public static void main(String[] args) {
         //定义方式一：
