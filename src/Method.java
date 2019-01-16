@@ -12,10 +12,14 @@ public class Method {
         System.out.println("==============");
         System.out.println("方法一：打印三行三列的*");
         printRect();
+
         System.out.println("方法二：打印一个整数" + getNumber());
+
         System.out.println("方法三：打印m行，n个*号");
         printRect2();
+
         System.out.println("方法四：计算三个数的平均数" + getAverage());
+
         System.out.println("方法重载");
         System.out.println("=============");
         System.out.println("方法的重载1：两个整数相加=" + getSum(2, 7));

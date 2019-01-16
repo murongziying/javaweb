@@ -13,14 +13,13 @@ public class Area {
     }
 
     public static int getArea() {
-        int width;
-        int height;
+        int w,h;
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入长度：");
-        width = scanner.nextInt();
+        w = scanner.nextInt();
         System.out.println("请输入高度：");
-        height = scanner.nextInt();
-        int area = width * height;
+        h = scanner.nextInt();
+        int area = w * h;
         return area;
     }
 }
