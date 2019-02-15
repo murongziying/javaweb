@@ -124,3 +124,4 @@ public class Method {
         b = a + b;  //b = 5
     }
 }
+
