@@ -8,35 +8,36 @@ import day01.Constant;
  * 功能：定义一个计算机
  * */
 public class Computer {
-        String brand;
-        String color;
-        String model;
-        double memory;
-        double harddisk;
-        double price;
-        public void open(){
+    String brand;
+    String color;
+    String model;
+    double memory;
+    double harddisk;
+    double price;
 
-        }
+    public void open() {
 
-        public void close(){
+    }
 
-        }
+    public void close() {
 
-        public void run(){
+    }
 
-        }
+    public void run() {
+
+    }
 }
 
 
-class Demo{
-    public static void main(String[] args){
+class Demo {
+    public static void main(String[] args) {
         Computer c = new Computer();
-        c.brand="acer";
-        c.color="黑色";
-        c.harddisk=512;
-        c.memory=16;
-        c.model="aspire7";
-        c.price=5899;
+        c.brand = "acer";
+        c.color = "黑色";
+        c.harddisk = 512;
+        c.memory = 16;
+        c.model = "aspire7";
+        c.price = 5899;
         c.open();
         c.run();
         c.close();

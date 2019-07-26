@@ -9,11 +9,13 @@ public class Person {
     //定义成员属性
     int age;
     String name;
+
     //定义构造方法
     public Person(int age, String name) {
         this.age = age;
         this.name = name;
     }
+
     //定义方法
     public void speak() {
         System.out.println("姓名：" + name + "  " + "年龄" + age + "我是一个好人");
@@ -47,7 +49,7 @@ public class Person {
 class test {
     public static void main(String[] args) {
         //新建一个Person对象
-        Person person1 = new Person(25,"刘超");
+        Person person1 = new Person(25, "刘超");
         //给第一个person对象赋值
         person1.age = 24;
         person1.name = "liuchao";
